@@ -111,6 +111,9 @@ I Mission Planner/QGroundControl:
 # Logga in på din Raspberry Pi via SSH
 ssh pi@<raspberry-pi-ip>
 
+# Installera git om det inte redan är installerat
+sudo apt install git
+
 # Klona repot
 git clone https://github.com/thunstromdavid/kthaero-install-script.git
 cd kthaero-install-script
