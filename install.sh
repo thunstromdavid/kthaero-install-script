@@ -33,7 +33,7 @@ echo "Installerar grundverktyg (neovim, curl)..."
 apt-get install -y neovim curl
 
 echo "[3/12] Installerar beroenden (git, build-tools, python)..."
-apt-get install -y git meson ninja-build pkg-config gcc g++ systemd python3-pip chrony ufw cmake libsystemd-dev
+apt-get install -y git meson ninja-build pkg-config gcc g++ systemd python3-pip chrony ufw cmake libsystemd-dev systemd-dev
 
 echo "[4/12] Konfigurerar tidssynkronisering (chrony)..."
 systemctl enable chrony
